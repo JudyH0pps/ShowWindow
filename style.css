@@ -74,7 +74,8 @@ body {
   /* border: 2px black solid; */
   margin: 10px;
   overflow-y: auto;
-  height: 60;
+  -webkit-overflow-scrolling:touch;
+  /* height: 60%; */
   padding: 0 10px;
 }
 
