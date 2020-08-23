@@ -1,0 +1,147 @@
+:root {
+  /* color */
+  --color-black: #3f454d;
+  --color-white: #ffffff;
+  --color-blue: #3b88c3;
+  --color-yellow: #fbbe28;
+  --color-pink: #fd7f84;
+  --color-light-grey: #dfdfdf;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-black);
+  /* max-width: 600px; */
+}
+
+.logo {
+  width: 100px;
+  margin: 50px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.cloth-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.cloth-buttons div {
+  height: 100%;
+}
+
+.cloth-buttons div img{
+  height: 100%;
+}
+
+.cloth-buttons div img:hover {
+  cursor: pointer;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+}
+
+.items {
+  width: 420px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  /* border: 2px black solid; */
+  margin: 10px;
+  overflow-y: auto;
+  height: 60vh;
+  padding: 0 10px;
+}
+
+.items::-webkit-scrollbar{
+  width:0.5rem;
+}
+
+.items::-webkit-scrollbar-track{
+  background: rgba(255,255,255,0);
+}
+
+.items::-webkit-scrollbar-thumb {
+  background: #fdb563;
+  border-radius: 13px;
+}
+
+.items .item {
+  width: 100%;
+  height: 45px;
+  background: white;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  transition: .2s ease;
+}
+
+.items .item:hover {
+  transform: translate(-5px, -3px);
+}
+
+.itemImg {
+  height: 80%;
+  margin: 0 10px 0;
+}
+
+button {
+  border: 0;
+  outline: 1px;
+  height: 25px;
+  background: var(--color-black);
+  margin: 2px;
+  border-radius: 5px;
+  color: var(--color-white);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.blue {
+  border: 1px solid var(--color-blue);
+}
+
+.blue:hover {
+  background: var(--color-blue);
+}
+
+.yellow {
+  border: 1px solid  var(--color-yellow);
+}
+
+.yellow:hover {
+  background: var(--color-yellow);
+}
+
+.pink {
+  border: 1px solid var(--color-pink);
+}
+
+.pink:hover {
+  background: var(--color-pink);
+}
