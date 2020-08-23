@@ -8,7 +8,7 @@ for (let i=0; i<types.length; i++){
     let item = {}
     item.type = types[i];
     for(let j=0; j<gender.length; j++){
-        if(types[i] === 'skirt' && gender[j] === 'female') continue;
+        if(types[i] === 'skirt' && gender[j] === 'male') continue;
         item.gender = gender[j];
         for(let k=0; k<size.length; k++){
             item.size = size[k];
