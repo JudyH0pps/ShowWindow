@@ -32,8 +32,6 @@ body {
   align-items: center;
 }
 
-
-
 .cloth-buttons {
   display: flex;
   flex-direction: row;
@@ -41,6 +39,7 @@ body {
   align-items: center;
   height: 40px;
   width: 100%;
+  margin: 0 auto;
 }
 
 .cloth-buttons div {
@@ -62,15 +61,16 @@ body {
 }
 
 .items {
-  width: 420px;
+  width: 90vw;
+  height: 60vh;
   display: flex;
   flex-direction: column;
   /* justify-content: center; */
   align-items: center;
   /* border: 2px black solid; */
   margin: 10px;
-  overflow-y: auto;
-  height: 60vh;
+  overflow: auto;
+  height: 60;
   padding: 0 10px;
 }
 
