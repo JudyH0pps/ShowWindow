@@ -14,12 +14,15 @@
 
 body {
   background: var(--color-black);
+  width: 90vw;
+  height: 90vh;
+  margin: 0 auto;
   /* max-width: 600px; */
 }
 
 .logo {
   width: 100px;
-  margin: 50px;
+  margin: 10px;
 }
 
 .logo:hover {
@@ -70,7 +73,7 @@ body {
   align-items: center;
   /* border: 2px black solid; */
   margin: 10px;
-  overflow: auto;
+  overflow-y: auto;
   height: 60;
   padding: 0 10px;
 }
@@ -105,7 +108,7 @@ body {
 }
 
 .itemImg {
-  height: 80%;
+  height: 40px;
   margin: 0 10px 0;
 }
 
